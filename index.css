@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    margin-top: 150px;
+    background-color: grey;
+}
+.btn-outline-primary{
+    border-radius: 50px;
+}
+.btn-outline-danger{
+    border-radius: 50px;
+
+}
+
+
+.container-fluid{
+    color: rgba(240, 255, 255, 0.311);
+}
+
+#searchtext{
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+    text-emphasis-color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+#result{
+    color: rgba(160, 167, 173, 0.67);
+}
+
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+@media (max-aspect-ratio:16/9){
+    .back-video{
+        width: auto;
+        height:100%;
+    }
+    
+}
